@@ -101,6 +101,10 @@
 @property (weak) IBOutlet NSView *view87;
 @property (weak) IBOutlet NSView *view88;
 
+#pragma mark - NSTimer
+
+@property (nonatomic, strong) NSTimer *timer;
+
 @end
 
 @implementation ViewController
@@ -111,6 +115,7 @@
     [super viewDidLoad];
     
     [self setupViews];
+    [self setupTimer];
 }
 
 #pragma mark - Helpers
@@ -216,6 +221,12 @@
 
 #pragma mark - Helpers
 
+- (void)setupTimer {
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 repeats:YES block:^(NSTimer * _Nonnull timer) {
+        [self switchAll];
+    }];
+}
+
 - (void)setupWhiteView:(NSView *)view {
     view.wantsLayer = YES;
     view.layer.backgroundColor = [NSColor whiteColor].CGColor;
@@ -224,6 +235,121 @@
 - (void)setupBlackView:(NSView *)view {
     view.wantsLayer = YES;
     view.layer.backgroundColor = [NSColor blackColor].CGColor;
+}
+
+- (void)switchAll {
+    [self switchFirstRow];
+    [self switchSecondRow];
+    [self switchThirdRow];
+    [self switchFourthRow];
+    [self switchFifthRow];
+    [self switchSixthRow];
+    [self switchSeventhRow];
+    [self switchEigthRow];
+}
+
+- (void)switchView:(NSView *)view {
+
+    CGColorRef currentColor = view.layer.backgroundColor;
+    
+    bool isBlack = CGColorEqualToColor(currentColor, [NSColor blackColor].CGColor);
+    
+    if (isBlack) {
+        printf("it's black. Changing to white\n");
+        view.layer.backgroundColor = [NSColor whiteColor].CGColor;
+    } else {
+        printf("it's white. Changing to black\n");
+        view.layer.backgroundColor = [NSColor blackColor].CGColor;
+    }
+
+}
+
+- (void)switchFirstRow {
+    [self switchView:self.view11];
+    [self switchView:self.view12];
+    [self switchView:self.view13];
+    [self switchView:self.view14];
+    [self switchView:self.view15];
+    [self switchView:self.view16];
+    [self switchView:self.view17];
+    [self switchView:self.view18];
+}
+
+- (void)switchSecondRow {
+    [self switchView:self.view21];
+    [self switchView:self.view22];
+    [self switchView:self.view23];
+    [self switchView:self.view24];
+    [self switchView:self.view25];
+    [self switchView:self.view26];
+    [self switchView:self.view27];
+    [self switchView:self.view28];
+}
+
+- (void)switchThirdRow {
+    [self switchView:self.view31];
+    [self switchView:self.view32];
+    [self switchView:self.view33];
+    [self switchView:self.view34];
+    [self switchView:self.view35];
+    [self switchView:self.view36];
+    [self switchView:self.view37];
+    [self switchView:self.view38];
+}
+
+- (void)switchFourthRow {
+    [self switchView:self.view41];
+    [self switchView:self.view42];
+    [self switchView:self.view43];
+    [self switchView:self.view44];
+    [self switchView:self.view45];
+    [self switchView:self.view46];
+    [self switchView:self.view47];
+    [self switchView:self.view48];
+}
+
+- (void)switchFifthRow {
+    [self switchView:self.view51];
+    [self switchView:self.view52];
+    [self switchView:self.view53];
+    [self switchView:self.view54];
+    [self switchView:self.view55];
+    [self switchView:self.view56];
+    [self switchView:self.view57];
+    [self switchView:self.view58];
+}
+
+- (void)switchSixthRow {
+    [self switchView:self.view61];
+    [self switchView:self.view62];
+    [self switchView:self.view63];
+    [self switchView:self.view64];
+    [self switchView:self.view65];
+    [self switchView:self.view66];
+    [self switchView:self.view67];
+    [self switchView:self.view68];
+}
+
+- (void)switchSeventhRow {
+    [self switchView:self.view71];
+    [self switchView:self.view72];
+    [self switchView:self.view73];
+    [self switchView:self.view74];
+    [self switchView:self.view75];
+    [self switchView:self.view76];
+    [self switchView:self.view77];
+    [self switchView:self.view78];
+}
+
+- (void)switchEigthRow {
+    [self switchView:self.view81];
+    [self switchView:self.view82];
+    [self switchView:self.view83];
+    [self switchView:self.view84];
+    [self switchView:self.view85];
+    [self switchView:self.view86];
+    [self switchView:self.view87];
+    [self switchView:self.view88];
 }
 
 @end
