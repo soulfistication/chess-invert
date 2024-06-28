@@ -46,6 +46,17 @@
 @property (weak) IBOutlet NSView *view37;
 @property (weak) IBOutlet NSView *view38;
 
+#pragma mark - Fourth Row
+
+@property (weak) IBOutlet NSView *view41;
+@property (weak) IBOutlet NSView *view42;
+@property (weak) IBOutlet NSView *view43;
+@property (weak) IBOutlet NSView *view44;
+@property (weak) IBOutlet NSView *view45;
+@property (weak) IBOutlet NSView *view46;
+@property (weak) IBOutlet NSView *view47;
+@property (weak) IBOutlet NSView *view48;
+
 
 @end
 
@@ -65,6 +76,7 @@
     [self setupFirstRow];
     [self setupSecondRow];
     [self setupThirdRow];
+    [self setupFourthRow];
 }
 
 - (void)setupFirstRow {
@@ -98,6 +110,17 @@
     [self setupWhiteView:self.view36];
     [self setupBlackView:self.view37];
     [self setupWhiteView:self.view38];
+}
+
+- (void)setupFourthRow {
+    [self setupWhiteView:self.view41];
+    [self setupBlackView:self.view42];
+    [self setupWhiteView:self.view43];
+    [self setupBlackView:self.view44];
+    [self setupWhiteView:self.view45];
+    [self setupBlackView:self.view46];
+    [self setupWhiteView:self.view47];
+    [self setupBlackView:self.view48];
 }
 
 #pragma mark - Helpers
