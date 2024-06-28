@@ -12,11 +12,11 @@
 #pragma mark - App Delegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+    NSLog(@"%@", @"Finished launching app");
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
+    NSLog(@"%@", @"App will terminate");
 }
 
 - (BOOL)applicationSupportsSecureRestorableState:(NSApplication *)app {

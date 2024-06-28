@@ -30,10 +30,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-}
-
-- (void)setRepresentedObject:(id)representedObject {
-    [super setRepresentedObject:representedObject];
+    
+    [self setupViews];
 }
 
 #pragma mark - Helpers
@@ -43,12 +41,24 @@
 }
 
 - (void)setupFirstRow {
-
+    [self setupBlackView:self.view11];
+    [self setupWhiteView:self.view12];
+    [self setupBlackView:self.view13];
+    [self setupWhiteView:self.view14];
+    [self setupBlackView:self.view15];
+    [self setupWhiteView:self.view16];
+    [self setupBlackView:self.view17];
+    [self setupWhiteView:self.view18];
 }
 
 - (void)setupWhiteView:(NSView *)view {
     view.wantsLayer = YES;
     view.layer.backgroundColor = [NSColor whiteColor].CGColor;
+}
+
+- (void)setupBlackView:(NSView *)view {
+    view.wantsLayer = YES;
+    view.layer.backgroundColor = [NSColor blackColor].CGColor;
 }
 
 @end
