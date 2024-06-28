@@ -1067,6 +1067,14 @@
                         <outlet property="view26" destination="6tJ-no-MwZ" id="ddX-a8-5Zr"/>
                         <outlet property="view27" destination="kwQ-Uq-Vgg" id="aND-Um-YxS"/>
                         <outlet property="view28" destination="Ymw-5d-r4B" id="nZ0-Gj-C6Q"/>
+                        <outlet property="view31" destination="7Hf-YY-E9f" id="Xvo-MI-hqR"/>
+                        <outlet property="view32" destination="FAt-ie-taX" id="tDk-u1-tNf"/>
+                        <outlet property="view33" destination="2sc-Sn-11x" id="mmg-vN-mwS"/>
+                        <outlet property="view34" destination="tTd-We-lIj" id="7aH-xK-wNL"/>
+                        <outlet property="view35" destination="AnO-Xv-o61" id="GHe-r7-o6e"/>
+                        <outlet property="view36" destination="vDA-FX-c39" id="Wka-kU-AMQ"/>
+                        <outlet property="view37" destination="BXh-fW-iQQ" id="z0K-P3-cVD"/>
+                        <outlet property="view38" destination="7WT-gJ-Wl8" id="Ko2-IJ-M8K"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>

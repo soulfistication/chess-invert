@@ -35,6 +35,18 @@
 @property (weak) IBOutlet NSView *view27;
 @property (weak) IBOutlet NSView *view28;
 
+#pragma mark - Third Row
+
+@property (weak) IBOutlet NSView *view31;
+@property (weak) IBOutlet NSView *view32;
+@property (weak) IBOutlet NSView *view33;
+@property (weak) IBOutlet NSView *view34;
+@property (weak) IBOutlet NSView *view35;
+@property (weak) IBOutlet NSView *view36;
+@property (weak) IBOutlet NSView *view37;
+@property (weak) IBOutlet NSView *view38;
+
+
 @end
 
 @implementation ViewController
@@ -52,6 +64,7 @@
 - (void)setupViews {
     [self setupFirstRow];
     [self setupSecondRow];
+    [self setupThirdRow];
 }
 
 - (void)setupFirstRow {
@@ -75,6 +88,19 @@
     [self setupWhiteView:self.view27];
     [self setupBlackView:self.view28];
 }
+
+- (void)setupThirdRow {
+    [self setupBlackView:self.view31];
+    [self setupWhiteView:self.view32];
+    [self setupBlackView:self.view33];
+    [self setupWhiteView:self.view34];
+    [self setupBlackView:self.view35];
+    [self setupWhiteView:self.view36];
+    [self setupBlackView:self.view37];
+    [self setupWhiteView:self.view38];
+}
+
+#pragma mark - Helpers
 
 - (void)setupWhiteView:(NSView *)view {
     view.wantsLayer = YES;
