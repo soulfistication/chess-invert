@@ -13,6 +13,8 @@
 
 #pragma mark - IBOutlets
 
+#pragma mark - First Row
+
 @property (weak) IBOutlet NSView *view11;
 @property (weak) IBOutlet NSView *view12;
 @property (weak) IBOutlet NSView *view13;
@@ -21,6 +23,17 @@
 @property (weak) IBOutlet NSView *view16;
 @property (weak) IBOutlet NSView *view17;
 @property (weak) IBOutlet NSView *view18;
+
+#pragma mark - Second Row
+
+@property (weak) IBOutlet NSView *view21;
+@property (weak) IBOutlet NSView *view22;
+@property (weak) IBOutlet NSView *view23;
+@property (weak) IBOutlet NSView *view24;
+@property (weak) IBOutlet NSView *view25;
+@property (weak) IBOutlet NSView *view26;
+@property (weak) IBOutlet NSView *view27;
+@property (weak) IBOutlet NSView *view28;
 
 @end
 
@@ -38,6 +51,7 @@
 
 - (void)setupViews {
     [self setupFirstRow];
+    [self setupSecondRow];
 }
 
 - (void)setupFirstRow {
@@ -49,6 +63,17 @@
     [self setupWhiteView:self.view16];
     [self setupBlackView:self.view17];
     [self setupWhiteView:self.view18];
+}
+
+- (void)setupSecondRow {
+    [self setupWhiteView:self.view21];
+    [self setupBlackView:self.view22];
+    [self setupWhiteView:self.view23];
+    [self setupBlackView:self.view24];
+    [self setupWhiteView:self.view25];
+    [self setupBlackView:self.view26];
+    [self setupWhiteView:self.view27];
+    [self setupBlackView:self.view28];
 }
 
 - (void)setupWhiteView:(NSView *)view {
