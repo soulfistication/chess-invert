@@ -90,6 +90,17 @@
 @property (weak) IBOutlet NSView *view77;
 @property (weak) IBOutlet NSView *view78;
 
+#pragma mark - Eight Row
+
+@property (weak) IBOutlet NSView *view81;
+@property (weak) IBOutlet NSView *view82;
+@property (weak) IBOutlet NSView *view83;
+@property (weak) IBOutlet NSView *view84;
+@property (weak) IBOutlet NSView *view85;
+@property (weak) IBOutlet NSView *view86;
+@property (weak) IBOutlet NSView *view87;
+@property (weak) IBOutlet NSView *view88;
+
 @end
 
 @implementation ViewController
@@ -112,6 +123,7 @@
     [self setupFifthRow];
     [self setupSixthRow];
     [self setupSeventhRow];
+    [self setupEightRow];
 }
 
 - (void)setupFirstRow {
@@ -189,6 +201,17 @@
     [self setupWhiteView:self.view76];
     [self setupBlackView:self.view77];
     [self setupWhiteView:self.view78];
+}
+
+- (void)setupEightRow {
+    [self setupWhiteView:self.view81];
+    [self setupBlackView:self.view82];
+    [self setupWhiteView:self.view83];
+    [self setupBlackView:self.view84];
+    [self setupWhiteView:self.view85];
+    [self setupBlackView:self.view86];
+    [self setupWhiteView:self.view87];
+    [self setupBlackView:self.view88];
 }
 
 #pragma mark - Helpers

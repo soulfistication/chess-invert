@@ -1102,37 +1102,61 @@
                                     <constraint firstAttribute="width" constant="100" id="Tqb-jo-b7T"/>
                                 </constraints>
                             </customView>
-                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RHT-t1-Of0">
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="RHT-t1-Of0">
                                 <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="4a0-M0-4HD"/>
+                                    <constraint firstAttribute="width" constant="100" id="ZFB-SC-jF3"/>
+                                </constraints>
                             </customView>
-                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Dw-ao-CDK">
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="6Dw-ao-CDK">
                                 <rect key="frame" x="108" y="0.0" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="dgj-v0-BRk"/>
+                                    <constraint firstAttribute="width" constant="100" id="jmd-3m-pHc"/>
+                                </constraints>
                             </customView>
-                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ELa-vu-AEY">
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="ELa-vu-AEY">
                                 <rect key="frame" x="216" y="0.0" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="0xu-NY-cUX"/>
+                                    <constraint firstAttribute="height" constant="100" id="1tE-Zg-RJ1"/>
+                                </constraints>
                             </customView>
-                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sgM-32-Ivo">
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="sgM-32-Ivo">
                                 <rect key="frame" x="324" y="0.0" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="B3y-Pw-aTU"/>
+                                    <constraint firstAttribute="width" constant="100" id="lif-nN-Kco"/>
+                                </constraints>
                             </customView>
-                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z77-Cr-Xmu">
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="Z77-Cr-Xmu">
                                 <rect key="frame" x="432" y="0.0" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="XgB-PL-Fsk"/>
+                                    <constraint firstAttribute="width" constant="100" id="uIZ-OG-ATq"/>
+                                </constraints>
                             </customView>
-                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5LL-5G-vyf">
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="5LL-5G-vyf">
                                 <rect key="frame" x="756" y="0.0" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="2GT-Aw-FL2"/>
+                                    <constraint firstAttribute="width" constant="100" id="Iel-jG-UK7"/>
+                                </constraints>
                             </customView>
-                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0O9-nU-I1E">
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="0O9-nU-I1E">
                                 <rect key="frame" x="648" y="0.0" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="buH-in-bae"/>
+                                    <constraint firstAttribute="height" constant="100" id="l8s-wx-KQT"/>
+                                </constraints>
                             </customView>
-                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w7b-Ku-dTg">
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="w7b-Ku-dTg">
                                 <rect key="frame" x="540" y="0.0" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="cT4-A4-DEs"/>
+                                    <constraint firstAttribute="width" constant="100" id="hbT-du-ggu"/>
+                                </constraints>
                             </customView>
                         </subviews>
                         <constraints>
@@ -1141,9 +1165,11 @@
                             <constraint firstItem="6tJ-no-MwZ" firstAttribute="top" secondItem="sno-Ov-Wok" secondAttribute="bottom" constant="8" symbolic="YES" id="1DO-7W-Dby"/>
                             <constraint firstItem="Hgi-MX-EA5" firstAttribute="leading" secondItem="LDg-aa-IRo" secondAttribute="trailing" constant="8" symbolic="YES" id="1F7-PK-SZY"/>
                             <constraint firstItem="vDA-FX-c39" firstAttribute="top" secondItem="6tJ-no-MwZ" secondAttribute="bottom" constant="8" symbolic="YES" id="1Hh-SW-xWi"/>
+                            <constraint firstItem="5LL-5G-vyf" firstAttribute="top" secondItem="zYA-HS-Tb6" secondAttribute="bottom" constant="8" symbolic="YES" id="2CG-jL-RCL"/>
                             <constraint firstItem="ope-bo-QKc" firstAttribute="top" secondItem="7WT-gJ-Wl8" secondAttribute="bottom" constant="8" symbolic="YES" id="2cv-6k-SC1"/>
                             <constraint firstItem="rDQ-Ip-L7Q" firstAttribute="top" secondItem="ent-YW-SrL" secondAttribute="bottom" constant="8" symbolic="YES" id="31z-Y5-dnp"/>
                             <constraint firstItem="FAt-ie-taX" firstAttribute="leading" secondItem="7Hf-YY-E9f" secondAttribute="trailing" constant="8" symbolic="YES" id="4Hi-cR-kPu"/>
+                            <constraint firstItem="0O9-nU-I1E" firstAttribute="leading" secondItem="w7b-Ku-dTg" secondAttribute="trailing" constant="8" symbolic="YES" id="5hw-MU-6Vf"/>
                             <constraint firstItem="CQx-4L-lMo" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="74u-tK-Fat"/>
                             <constraint firstItem="ImV-Oc-MKD" firstAttribute="leading" secondItem="Mk6-3j-obd" secondAttribute="trailing" constant="8" symbolic="YES" id="7QC-9G-rBu"/>
                             <constraint firstItem="lBb-dk-xZa" firstAttribute="leading" secondItem="7PD-Uk-1da" secondAttribute="trailing" constant="8" symbolic="YES" id="7qu-hw-Q1B"/>
@@ -1156,6 +1182,7 @@
                             <constraint firstItem="CQx-4L-lMo" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="Anm-mT-cOo"/>
                             <constraint firstItem="zYA-HS-Tb6" firstAttribute="leading" secondItem="ImV-Oc-MKD" secondAttribute="trailing" constant="8" symbolic="YES" id="Bae-0a-aAh"/>
                             <constraint firstItem="l3e-TS-Zag" firstAttribute="leading" secondItem="dfy-HI-5sU" secondAttribute="trailing" constant="8" symbolic="YES" id="BpB-WU-rcV"/>
+                            <constraint firstItem="ELa-vu-AEY" firstAttribute="top" secondItem="ibx-a8-I8R" secondAttribute="bottom" constant="8" symbolic="YES" id="C2a-EY-m3f"/>
                             <constraint firstItem="LDg-aa-IRo" firstAttribute="top" secondItem="hiN-h3-1CN" secondAttribute="bottom" constant="8" symbolic="YES" id="CL4-Qf-sHp"/>
                             <constraint firstItem="BXh-fW-iQQ" firstAttribute="leading" secondItem="vDA-FX-c39" secondAttribute="trailing" constant="8" symbolic="YES" id="CS2-JJ-WZo"/>
                             <constraint firstItem="cFR-Og-FbE" firstAttribute="top" secondItem="wNS-Hj-471" secondAttribute="bottom" constant="8" symbolic="YES" id="CUK-ad-JLG"/>
@@ -1173,7 +1200,9 @@
                             <constraint firstItem="y7V-EX-u6p" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="GS0-8Z-CNi"/>
                             <constraint firstItem="XfF-cd-B3c" firstAttribute="top" secondItem="2sc-Sn-11x" secondAttribute="bottom" constant="8" symbolic="YES" id="Gld-ki-yYw"/>
                             <constraint firstItem="oc7-dp-iuL" firstAttribute="top" secondItem="kU9-Kf-MBX" secondAttribute="bottom" constant="8" symbolic="YES" id="Gr9-9y-lwu"/>
+                            <constraint firstItem="sgM-32-Ivo" firstAttribute="top" secondItem="QRY-a8-z6Y" secondAttribute="bottom" constant="8" symbolic="YES" id="HIA-6U-CMA"/>
                             <constraint firstItem="ope-bo-QKc" firstAttribute="leading" secondItem="wNS-Hj-471" secondAttribute="trailing" constant="8" symbolic="YES" id="HKp-dS-K4A"/>
+                            <constraint firstItem="ELa-vu-AEY" firstAttribute="leading" secondItem="6Dw-ao-CDK" secondAttribute="trailing" constant="8" symbolic="YES" id="HRR-T0-pqq"/>
                             <constraint firstItem="LDg-aa-IRo" firstAttribute="leading" secondItem="047-0c-uLY" secondAttribute="trailing" constant="8" symbolic="YES" id="Ho5-m7-nki"/>
                             <constraint firstItem="sno-Ov-Wok" firstAttribute="leading" secondItem="kU9-Kf-MBX" secondAttribute="trailing" constant="8" symbolic="YES" id="HtF-U9-5Ln"/>
                             <constraint firstItem="8tR-77-dzb" firstAttribute="leading" secondItem="lBb-dk-xZa" secondAttribute="trailing" constant="8" symbolic="YES" id="Hx3-yq-su0"/>
@@ -1191,6 +1220,7 @@
                             <constraint firstItem="7Hf-YY-E9f" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="Qv3-Sk-aub"/>
                             <constraint firstItem="QRY-a8-z6Y" firstAttribute="leading" secondItem="ibx-a8-I8R" secondAttribute="trailing" constant="8" symbolic="YES" id="RDC-Aj-h8L"/>
                             <constraint firstItem="oc7-dp-iuL" firstAttribute="leading" secondItem="Hgi-MX-EA5" secondAttribute="trailing" constant="8" symbolic="YES" id="Rbg-y4-yn1"/>
+                            <constraint firstItem="6Dw-ao-CDK" firstAttribute="top" secondItem="WmB-fn-vTk" secondAttribute="bottom" constant="8" symbolic="YES" id="Rrk-UX-Drl"/>
                             <constraint firstItem="7WT-gJ-Wl8" firstAttribute="top" secondItem="Ymw-5d-r4B" secondAttribute="bottom" constant="8" symbolic="YES" id="Tmc-vI-zzC"/>
                             <constraint firstItem="8YH-wJ-ntt" firstAttribute="leading" secondItem="FFZ-9V-ET2" secondAttribute="trailing" constant="8" symbolic="YES" id="Uzg-xb-B6E"/>
                             <constraint firstItem="PTV-l6-yMD" firstAttribute="leading" secondItem="RPM-mW-Hjh" secondAttribute="trailing" constant="8" symbolic="YES" id="V3J-ml-44y"/>
@@ -1208,10 +1238,14 @@
                             <constraint firstItem="kwQ-Uq-Vgg" firstAttribute="top" secondItem="fOd-Cy-KVe" secondAttribute="bottom" constant="8" symbolic="YES" id="Ysf-CO-rxG"/>
                             <constraint firstItem="AnO-Xv-o61" firstAttribute="leading" secondItem="tTd-We-lIj" secondAttribute="trailing" constant="8" symbolic="YES" id="ZhN-Ca-UtX"/>
                             <constraint firstItem="255-UR-HIA" firstAttribute="leading" secondItem="cFR-Og-FbE" secondAttribute="trailing" constant="8" symbolic="YES" id="a9x-c7-Jd8"/>
+                            <constraint firstItem="Z77-Cr-Xmu" firstAttribute="leading" secondItem="sgM-32-Ivo" secondAttribute="trailing" constant="8" symbolic="YES" id="aAl-qA-23I"/>
+                            <constraint firstItem="RHT-t1-Of0" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="aJe-aS-hfh"/>
                             <constraint firstItem="Mk6-3j-obd" firstAttribute="leading" secondItem="A11-kM-48X" secondAttribute="trailing" constant="8" symbolic="YES" id="aQt-Zl-87o"/>
+                            <constraint firstItem="sgM-32-Ivo" firstAttribute="leading" secondItem="ELa-vu-AEY" secondAttribute="trailing" constant="8" symbolic="YES" id="aRX-Jd-0FA"/>
                             <constraint firstItem="ibx-a8-I8R" firstAttribute="leading" secondItem="WmB-fn-vTk" secondAttribute="trailing" constant="8" symbolic="YES" id="bfS-8d-RTm"/>
                             <constraint firstItem="PTV-l6-yMD" firstAttribute="top" secondItem="rDQ-Ip-L7Q" secondAttribute="bottom" constant="8" symbolic="YES" id="c4T-ko-Pur"/>
                             <constraint firstItem="rDQ-Ip-L7Q" firstAttribute="leading" secondItem="YRB-Lg-b3D" secondAttribute="trailing" constant="8" symbolic="YES" id="cEO-uE-RaM"/>
+                            <constraint firstItem="w7b-Ku-dTg" firstAttribute="leading" secondItem="Z77-Cr-Xmu" secondAttribute="trailing" constant="8" symbolic="YES" id="cIO-GQ-TzE"/>
                             <constraint firstItem="6tJ-no-MwZ" firstAttribute="leading" secondItem="oc7-dp-iuL" secondAttribute="trailing" constant="8" symbolic="YES" id="cX4-GE-nqK"/>
                             <constraint firstItem="MK3-7C-bm7" firstAttribute="top" secondItem="wtD-OZ-YrU" secondAttribute="bottom" constant="8" symbolic="YES" id="cov-7H-o6A"/>
                             <constraint firstItem="7PD-Uk-1da" firstAttribute="top" secondItem="FFZ-9V-ET2" secondAttribute="bottom" constant="8" symbolic="YES" id="cpp-kd-jfY"/>
@@ -1227,7 +1261,9 @@
                             <constraint firstItem="wtD-OZ-YrU" firstAttribute="top" secondItem="uAp-z5-Knh" secondAttribute="bottom" constant="8" symbolic="YES" id="iDn-Hr-Tt1"/>
                             <constraint firstItem="kU9-Kf-MBX" firstAttribute="leading" secondItem="y7V-EX-u6p" secondAttribute="trailing" constant="8" symbolic="YES" id="iRg-FO-ixf"/>
                             <constraint firstItem="A11-kM-48X" firstAttribute="top" secondItem="RPM-mW-Hjh" secondAttribute="bottom" constant="8" symbolic="YES" id="j8Y-q4-DMw"/>
+                            <constraint firstItem="RHT-t1-Of0" firstAttribute="top" secondItem="MK3-7C-bm7" secondAttribute="bottom" constant="8" symbolic="YES" id="k7o-C1-gMc"/>
                             <constraint firstItem="AVV-8i-Y6g" firstAttribute="leading" secondItem="fOd-Cy-KVe" secondAttribute="trailing" constant="8" symbolic="YES" id="kBy-Ag-r9Z"/>
+                            <constraint firstItem="Z77-Cr-Xmu" firstAttribute="top" secondItem="A11-kM-48X" secondAttribute="bottom" constant="8" symbolic="YES" id="l7O-mj-6zG"/>
                             <constraint firstItem="tTd-We-lIj" firstAttribute="top" secondItem="Hgi-MX-EA5" secondAttribute="bottom" constant="8" symbolic="YES" id="lDC-yW-ByK"/>
                             <constraint firstItem="YRB-Lg-b3D" firstAttribute="top" secondItem="l3e-TS-Zag" secondAttribute="bottom" constant="8" symbolic="YES" id="mdI-iH-Nqt"/>
                             <constraint firstItem="fOd-Cy-KVe" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="msN-uH-3hG"/>
@@ -1237,6 +1273,8 @@
                             <constraint firstItem="255-UR-HIA" firstAttribute="top" secondItem="ope-bo-QKc" secondAttribute="bottom" constant="8" symbolic="YES" id="pQp-mM-6sp"/>
                             <constraint firstItem="ent-YW-SrL" firstAttribute="leading" secondItem="l3e-TS-Zag" secondAttribute="trailing" constant="8" symbolic="YES" id="rA0-0b-L8T"/>
                             <constraint firstItem="FFZ-9V-ET2" firstAttribute="leading" secondItem="uAp-z5-Knh" secondAttribute="trailing" constant="8" symbolic="YES" id="rbn-rY-1XF"/>
+                            <constraint firstItem="0O9-nU-I1E" firstAttribute="top" secondItem="ImV-Oc-MKD" secondAttribute="bottom" constant="8" symbolic="YES" id="rd1-iU-qZ8"/>
+                            <constraint firstItem="5LL-5G-vyf" firstAttribute="leading" secondItem="0O9-nU-I1E" secondAttribute="trailing" constant="8" symbolic="YES" id="taB-8A-Ksi"/>
                             <constraint firstItem="AnO-Xv-o61" firstAttribute="top" secondItem="oc7-dp-iuL" secondAttribute="bottom" constant="8" symbolic="YES" id="tqx-65-ihx"/>
                             <constraint firstItem="wNS-Hj-471" firstAttribute="leading" secondItem="ent-YW-SrL" secondAttribute="trailing" constant="8" symbolic="YES" id="tzq-z4-yCi"/>
                             <constraint firstItem="EcS-iF-ob0" firstAttribute="top" secondItem="CQx-4L-lMo" secondAttribute="bottom" constant="8" symbolic="YES" id="uHW-Zs-epG"/>
@@ -1245,7 +1283,9 @@
                             <constraint firstItem="sno-Ov-Wok" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="xlD-Vw-iYN"/>
                             <constraint firstItem="dfy-HI-5sU" firstAttribute="leading" secondItem="XfF-cd-B3c" secondAttribute="trailing" constant="8" symbolic="YES" id="xog-YC-sSs"/>
                             <constraint firstItem="ZF8-Qc-FG5" firstAttribute="top" secondItem="FAt-ie-taX" secondAttribute="bottom" constant="8" symbolic="YES" id="y3M-oI-lMl"/>
+                            <constraint firstItem="6Dw-ao-CDK" firstAttribute="leading" secondItem="RHT-t1-Of0" secondAttribute="trailing" constant="8" symbolic="YES" id="zH1-Ja-HJj"/>
                             <constraint firstItem="vDA-FX-c39" firstAttribute="leading" secondItem="AnO-Xv-o61" secondAttribute="trailing" constant="8" symbolic="YES" id="zT0-YN-2JB"/>
+                            <constraint firstItem="w7b-Ku-dTg" firstAttribute="top" secondItem="Mk6-3j-obd" secondAttribute="bottom" constant="8" symbolic="YES" id="zTV-tQ-EYq"/>
                             <constraint firstItem="Hgi-MX-EA5" firstAttribute="top" secondItem="y7V-EX-u6p" secondAttribute="bottom" constant="8" symbolic="YES" id="zg7-lW-vFl"/>
                             <constraint firstItem="y7V-EX-u6p" firstAttribute="leading" secondItem="hiN-h3-1CN" secondAttribute="trailing" constant="8" symbolic="YES" id="zsY-af-WIH"/>
                         </constraints>
@@ -1307,6 +1347,14 @@
                         <outlet property="view76" destination="Mk6-3j-obd" id="Jvv-34-a1T"/>
                         <outlet property="view77" destination="ImV-Oc-MKD" id="3Cx-dh-TD5"/>
                         <outlet property="view78" destination="zYA-HS-Tb6" id="EY2-Uj-QQE"/>
+                        <outlet property="view81" destination="RHT-t1-Of0" id="t4s-iz-0yL"/>
+                        <outlet property="view82" destination="6Dw-ao-CDK" id="B3Q-Xx-Ow2"/>
+                        <outlet property="view83" destination="ELa-vu-AEY" id="Fed-w3-vDV"/>
+                        <outlet property="view84" destination="sgM-32-Ivo" id="J4z-w2-SNo"/>
+                        <outlet property="view85" destination="Z77-Cr-Xmu" id="kK4-p4-3W7"/>
+                        <outlet property="view86" destination="w7b-Ku-dTg" id="fOC-Op-4lP"/>
+                        <outlet property="view87" destination="0O9-nU-I1E" id="l2Y-Fr-aHW"/>
+                        <outlet property="view88" destination="5LL-5G-vyf" id="FDC-Oa-Xak"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
