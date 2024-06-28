@@ -68,6 +68,18 @@
 @property (weak) IBOutlet NSView *view57;
 @property (weak) IBOutlet NSView *view58;
 
+#pragma mark - Sixth Row
+
+@property (weak) IBOutlet NSView *view61;
+@property (weak) IBOutlet NSView *view62;
+@property (weak) IBOutlet NSView *view63;
+@property (weak) IBOutlet NSView *view64;
+@property (weak) IBOutlet NSView *view65;
+@property (weak) IBOutlet NSView *view66;
+@property (weak) IBOutlet NSView *view67;
+@property (weak) IBOutlet NSView *view68;
+
+
 @end
 
 @implementation ViewController
@@ -88,6 +100,7 @@
     [self setupThirdRow];
     [self setupFourthRow];
     [self setupFifthRow];
+    [self setupSixthRow];
 }
 
 - (void)setupFirstRow {
@@ -143,6 +156,17 @@
     [self setupWhiteView:self.view56];
     [self setupBlackView:self.view57];
     [self setupWhiteView:self.view58];
+}
+
+- (void)setupSixthRow {
+    [self setupWhiteView:self.view61];
+    [self setupBlackView:self.view62];
+    [self setupWhiteView:self.view63];
+    [self setupBlackView:self.view64];
+    [self setupWhiteView:self.view65];
+    [self setupBlackView:self.view66];
+    [self setupWhiteView:self.view67];
+    [self setupBlackView:self.view68];
 }
 
 #pragma mark - Helpers
